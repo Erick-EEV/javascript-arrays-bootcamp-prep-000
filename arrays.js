@@ -29,6 +29,6 @@ array.pop();
 return array;
 }
 function removeElementFromEndOfArray(array){
-  array.slice(3, array.length - 3);
+  array.slice(0, array.length - 2);
   return array;
 }
